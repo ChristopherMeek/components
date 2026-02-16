@@ -1,5 +1,5 @@
 {
-  "name": "@yourname/ui-library",
+  "name": "@christophermeek/ui-library",
   "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.umd.js",
@@ -16,6 +16,13 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristopherMeek/interview-prep.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "vite build",
     "dev": "vite",
