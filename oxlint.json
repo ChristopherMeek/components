@@ -1,0 +1,13 @@
+{
+  "$schema": "https://oxc.rs/schema/oxlintrc.json",
+  "rules": {
+    "typescript": "warn",
+    "react": "warn",
+    "jsx-a11y": "warn",
+    "unicorn": "warn"
+  },
+  "ignorePattern": [
+    "dist/**",
+    "node_modules/**"
+  ]
+}
